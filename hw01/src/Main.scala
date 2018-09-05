@@ -98,5 +98,4 @@ object Main extends Homework01 {
        println("Test 10 : giveName, testcase : oldName - 'cat' / newName -  'kitty' / testList - List('cat', 'baby', 'trevi')")
        test(giveName("cat", "kitty")(List("cat", "baby", "trevi")), List("kitty", "baby", "trevi"))
      } 
-
 }
